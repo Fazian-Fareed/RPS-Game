@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+</head>
+<body>
+    <div class="Game_heading">
+        <h1>Rock, Paper, Secissor Game</h1>
+    </div>
+    <div class="mainDiv">
+        <div class="game-icons">
+            <div class="images">
+                <div class="rock icons">
+                    <img src="images/rock1.jpeg" alt="Rock_img">
+                    <button class="selectOpt" id="Rock">Rock</button>
+                </div>
+                <div class="scissor icons">
+                    <img src="images/scissor.jpeg" alt="secissor_img">
+                    <button class="selectOpt" id="Scissors">Scissor</button>
+                </div>
+                <div class="paper icons">
+                    <img src="images/paper1.jpeg" alt="Paper_img">
+                    <button class="selectOpt" id="Paper">Paper</button>
+                </div>
+            </div>
+        </div>
+        <div class="scoreBoard">
+            <div class="card">
+                <h2>Score Board</h2>
+                <hr>
+                <div class="You">
+                    <p>You</p>
+                    <p id="userScore">0</p>
+                </div>
+                <div class="comp">
+                    <p>Computer</p>
+                    <p id="compScore">0</p>
+                </div>
+                <div class="btn_class">
+                <button id="btn">
+                    Play Your Turn
+                </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>

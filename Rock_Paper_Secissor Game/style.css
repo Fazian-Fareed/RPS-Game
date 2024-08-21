@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.Game_heading{
+    background-color: purple;
+    height: 4rem;
+}
+
+.Game_heading h1 {
+    color: #ff0f;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 30px;
+}
+
+.mainDiv{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.mainDiv .game-icons{
+    width: 50%;
+}
+
+.mainDiv .game-icons .images{
+    width: 70%;
+    margin: 17% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainDiv .game-icons .images img {
+    border-radius: 94px;
+    width: 100%;
+    padding: 5px;
+}
+.icons{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.icons button{
+    margin-top: 33px;
+}
+
+.mainDiv .scoreBoard{
+    width: 50%;
+}
+
+.mainDiv .scoreBoard .card  {
+    width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    height: 20rem;
+    margin-top: 20%;
+    box-shadow: 6px 8px 20px 0px #afafaf;
+}
+
+.mainDiv .scoreBoard .card h2 {
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 8px;
+}
+
+.mainDiv .scoreBoard .card .You {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 17px;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.mainDiv .scoreBoard .card .comp{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 17px;
+    font-size: 20px;
+}
+
+.mainDiv .scoreBoard .card .btn_class{
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+}
+button {
+    background-color: purple;
+    color: #ff0f;
+    padding: 9px 12px;
+    border-bottom-left-radius: 21px;
+    border-top-right-radius: 21px;
+    border: 1px solid #ff0f;;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #ff0f;
+    color: purple;
+    border: 1px solid purple;
+    transition: 0.6s ease;
+}
+
+

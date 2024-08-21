@@ -1,0 +1,24 @@
+@media screen and (max-width:768px) {
+    .mainDiv{
+        flex-direction: column;
+    }
+    .mainDiv .game-icons{
+        width: 100%;
+    }
+    .mainDiv .scoreBoard{
+        width: 100%;
+    }
+    button{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    
+}
